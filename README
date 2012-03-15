@@ -1,3 +1,7 @@
-to run with thin using the config.ru
+This is a barebone Sinatra App with RSpec and Capybara testing ready to go.
+
+To run with thin using the config.ru
 
 %> rackup -p 4567
+
+If there's anything else you'd like to see in the skeleton fork!
