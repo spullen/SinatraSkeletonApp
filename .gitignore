@@ -1,2 +1,4 @@
 # Ignore Apatana/Radrails .project file
 .project
+
+.DS_Store
