@@ -1,0 +1,3 @@
+to run with thin using the config.ru
+
+%> rackup -p 4567
