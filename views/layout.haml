@@ -7,6 +7,9 @@
     = stylesheet_link_tag "css/application.css"
     
   %body
-    = yield
+    #container
+      = haml :header, :layout => false
+      = yield
+      = haml :footer, :layout => false
     
     = javascript_script_tag "javascript/jquery-1.7.1.min.js", "javascript/application.js"
