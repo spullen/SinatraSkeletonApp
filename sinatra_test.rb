@@ -1,8 +1,11 @@
 require 'bundler/setup'
 require 'sinatra/base'
 require 'sinatra/contrib'
+require 'sinatra/static_assets'
 
 class SinatraTest < Sinatra::Base
+  register Sinatra::StaticAssets
+  
   SITE_TITLE = "Sinatra Test"
   
   #set :sessions, true
