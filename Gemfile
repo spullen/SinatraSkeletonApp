@@ -9,4 +9,5 @@ gem 'thin'
 group :test do
   gem 'rspec'
   gem 'capybara'
+  gem 'shoulda'
 end
