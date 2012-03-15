@@ -1,0 +1,3 @@
+FactoryGirl.define do
+  # define your factories here...
+end
