@@ -6,6 +6,10 @@ require 'sinatra/static_assets'
 class SinatraTest < Sinatra::Base
   register Sinatra::StaticAssets
   
+  configure :development do
+    register Sinatra::Reloader
+  end
+  
   SITE_TITLE = "Sinatra Test"
   
   #set :sessions, true
